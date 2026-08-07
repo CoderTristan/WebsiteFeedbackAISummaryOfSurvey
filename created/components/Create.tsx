@@ -15,8 +15,6 @@ import {
 } from "@/components/ui/select";
 import { Copy, Check, Plus } from "lucide-react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-
-// Add these imports at the top
 import { useParams, useRouter } from "next/navigation";
 import { createSurvey, getSurveys } from "@/lib/supabaseSurveys";
 import { useSubscription } from "@/hooks/use-sub";
@@ -47,7 +45,7 @@ export default function CreateSurveyPage() {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL
   const subscription = useSubscription();
 const plan = subscription?.plan || "free";
-const maxSurveys = PLAN_LIMITS[plan.toLowerCase()]?.surveys ?? 3; // whatever limit you defined
+const maxSurveys = PLAN_LIMITS[plan.toLowerCase()]?.surveys ?? 3;
 
 const [surveys, setSurveys] = useState<any[]>([]);
 
