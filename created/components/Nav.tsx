@@ -27,7 +27,7 @@ export default function Header() {
         <img src="/favicon-32x32.png" alt="OneQ logo" width={24} height={24} />
         OneQ
       </Link>
-
+      {**Nav component**}
       <nav className="hidden md:flex space-x-2 ml-auto text-sm text-gray-600">
         {navLinks
           .filter((link) => link.href !== "/dashboard/projects")
