@@ -28,7 +28,6 @@ export default function Header() {
         OneQ
       </Link>
 
-      {/* Desktop nav */}
       <nav className="hidden md:flex space-x-2 ml-auto text-sm text-gray-600">
         {navLinks
           .filter((link) => link.href !== "/dashboard/projects")
@@ -84,7 +83,6 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {mobileMenuOpen && (
         <div className="absolute top-14 left-0 right-0 bg-white border-t shadow-md flex flex-col md:hidden z-40">
           {navLinks.map((link) => {
