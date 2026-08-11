@@ -1,9 +1,9 @@
 # AI Survey Response Analyzer
-Cloud-native survey tool and feedback analyzer built with Next.js, TypeScript,Stripe, Clerk, PostHog, and Sentry. 
-> Designed to collect user responses directly from websites and automatically generate clear, action-oriented summaries using integrated AI analysis.Processes user feedback through automated data pipelines including structured
+Cloud-native survey tool and feedback analyzer built with Next.js, TypeScript, Stripe, Clerk, PostHog, and Sentry. 
+> Designed to collect user responses directly from websites and automatically generate summaries using integrated AI analysis. Processes user feedback through data pipelines including structured
 > response aggregation and AI-driven summarization.
-> User authentication is managed safely via Clerk, monetization is handled via
-> Stripe billing pipelines, and the entire platform is deployed to Vercel.
+> User authentication is managed via Clerk, monetization is handled via
+> Stripe billing, and the entire platform is deployed to Vercel.
 ---
 ## Features
 - AI-powered automated response summarization
