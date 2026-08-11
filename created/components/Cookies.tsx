@@ -7,14 +7,14 @@ export default function CookieBanner() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const consent = localStorage.getItem("cookie-consent");
-      if (!consent) setShow(true); // Show banner only if no decision yet
+      if (!consent) setShow(true); 
     }
   }, []);
 
   const acceptCookies = () => {
     localStorage.setItem("cookie-consent", "accepted");
     setShow(false);
-    window.location.reload(); // reload to initialize analytics
+    window.location.reload();
   };
 
   const declineCookies = () => {
