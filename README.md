@@ -68,12 +68,15 @@ POST /api/stripe/webhooks
 ### Project Setup
 ### Clone the repository and navigate into the folder
 cd AISummaryOfSurveyResponses
-
+---
 ### Install the necessary production and development dependencies
 npm install
 Verify the installation:Bashnode --version
 npm --version
-ConfigurationUpdate your root project directory .env.local file:Code snippet# Clerk Keys
+---
+## Configuration
+
+### Update your root project directory .env.local file:Code snippet# Clerk Keys
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_your_clerk_publishable_key
 CLERK_SECRET_KEY=sk_test_your_clerk_secret_key
 
