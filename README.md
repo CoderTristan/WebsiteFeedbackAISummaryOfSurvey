@@ -72,7 +72,9 @@ Listens to invoice events and handles user tier states.
 ## Installation
 ### Project Setup
 ### Clone the repository and navigate into the folder
+```
 cd AISurveyResponseAnalyzer
+```
 ---
 ### Install the necessary production and development dependencies
 npm install
